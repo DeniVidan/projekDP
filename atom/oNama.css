@@ -1,0 +1,110 @@
+body{
+  background-color: #EDEDED !important;
+}
+.navbar{
+  background-color: #000000d1 !important;
+}
+.searchbar2{
+  display: none !important;
+}
+.empty{
+  width: 300px;
+  text-align: right;
+  font-size: 22px;
+  color: #ffffff85;
+  margin-right: 15px;
+}
+input::placeholder{
+  text-align: center;
+}
+.form-control{
+  background-color: #76869645 !important;
+  color: #ffffff !important;
+}
+.searchbar{
+  margin: auto;
+}
+.card{
+  height: 100%;
+  width: 600px;
+  height: 370px;
+  border: 1px solid #EDEDED !important;
+  background-color: #EDEDED !important;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+  justify-content:center;
+}
+.card-body {
+  border-left: 1px solid black !important;
+  justify-content: center;
+  color: black !important;
+}
+.card-title{
+  padding-left: 25px;
+}
+.card-text{
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.mojfooter{
+  background-color: #000000d1 !important;
+  color: white;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+}
+@media screen and (max-width: 1199px){
+  .empty{
+    text-align: left !important;
+  }
+  .searchbar{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 993px){
+  .empty{
+    justify-content: flex-start !important;
+  }
+}
+@media screen and (max-width: 576px){
+  .form-control{
+    width: 43% !important;
+  }
+}
+@media screen and (max-width: 890px){
+  .linkovi{
+    display: flex !important;
+    height: 75px !important;
+  }
+  .onama, .dev{
+    margin-right: 20px;
+    height: 75px;
+  }
+}
+.bookme{
+  display: block;
+}
+.founders{
+  display: none;
+}
+.onama{
+  text-decoration: none !important;
+}
+.dev{
+  text-decoration: none !important;
+}
+.linkovi{
+  height: 150px;
+  display: block;
+  margin: auto 0;
+}
+h1.card-title{
+  color: #3E3E3E;
+}
