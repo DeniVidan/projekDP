@@ -1,6 +1,4 @@
-.container{
-  margin-top: 130px;
-}
+
 body .bg-image{
   background-image: url("rovinjslika123.jpg");
   filter: blur(2.5px);
@@ -16,7 +14,7 @@ body .bg-image{
 }
 
 .card{
-  display: inline-block !important;
+  display: inline-block;
   width: 80%;
   border: 1px solid black !important;
   background-color: #ffffffbf !important;
@@ -36,13 +34,20 @@ body .bg-image{
   display: flex;
   flex-wrap: wrap;
   margin-top: 100px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
   justify-content: flex-start;
 }
 .mojfooter{
   background-color: #000000d1 !important;
   color: white;
+  text-align: center;
+}
+@media screen and (max-width: 1260px){
+  .card{
+    display: flex !important;
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 773px){
   .flex-container{

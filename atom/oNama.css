@@ -78,9 +78,16 @@ input::placeholder{
     width: 43% !important;
   }
 }
+@media screen and (max-width: 576px){
+  .flex-container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 @media screen and (max-width: 890px){
   .linkovi{
     display: flex !important;
+    flex-wrap: wrap !important;
     height: 75px !important;
   }
   .onama, .dev{
