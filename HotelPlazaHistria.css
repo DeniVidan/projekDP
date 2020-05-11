@@ -1,0 +1,139 @@
+body .bg-image{
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1047&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2016%2F03%2FZlatni-Rat-Beach-CROATIA0316.jpg");
+  filter: blur(2.5px);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -5;
+}
+.navbar{
+  background-color: #000000d1 !important;
+}
+.card{
+  display: flex;
+  width: 70%;
+  height: 80%;
+  border: 1px solid black !important;
+  background-color: #ffffffbf !important;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+}
+
+.col{
+
+}
+.card-img-top{
+  width: 700px;
+}
+.card-body {
+  color: black !important;
+  height: 300px;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  justify-content: center;
+
+}
+.mojfooter{
+  background-color: #000000d1 !important;
+  color: white;
+}
+@media screen and (max-width: 773px){
+  .flex-container{
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576px){
+  .burek{
+    display: none !important;
+  }
+  .form-control{
+    width: 43% !important;
+  }
+}
+@media screen and (max-width: 1127px){
+  .flex-container{
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 993px){
+  .empty{
+    justify-content: flex-start !important;
+  }
+
+  .btn-dark{
+    display: inline !important;
+  }
+}
+@media screen and (max-width: 1199px){
+  .searchbar{
+    display: none !important;
+  }
+  .empty{
+    text-align: left !important;
+  }
+  .searchbar2{
+    display: inline-block!important;
+  }
+}
+
+.batun {
+  background-color: #00000014 !important;
+  color: black;
+  border: 1px solid #343a40 !important;
+  transition-duration: 0.4s;
+}
+
+.batun:hover {
+  background-color: #343a40 !important;
+  color: white;
+  transform: scale(1.05);
+}
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.02);
+}
+.searchbar{
+  margin: auto;
+}
+.empty{
+  width: 300px;
+  text-align: right;
+  font-size: 22px;
+  color: #ffffff85;
+  margin-right: 15px;
+}
+input::placeholder{
+  text-align: center;
+}
+.form-control{
+  background-color: #76869645 !important;
+  color: #ffffff !important;
+}
+.searchbar2{
+  display: none !important;
+}
+.btn-dark{
+  display: none !important;
+}
+#truncateLongTexts {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
